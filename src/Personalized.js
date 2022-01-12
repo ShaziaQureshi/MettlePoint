@@ -1,8 +1,8 @@
 import React,{Component} from "react"
 import ReactDOM from "react-dom"
 import {init} from '@emailjs/browser'
-emailjs.init("user_SG2lXtweFNiLdVeQjzP5V");
 import emailjs from 'emailjs-com';
+emailjs.init("user_SG2lXtweFNiLdVeQjzP5V");
 import emailkey from "./emailkey"
 const persoData="We all are different in our own ways and so is our healing journey. That is the reason we are also offereing personalized Help for every indivaual. If the above content intrigued you and you are at this page, make sure to provide your details below so we can reach out for you."
 
@@ -36,12 +36,12 @@ if(namevar=="Username")
 handleOnSubmit(event){
 event.preventDefault()
 console.log(emailkey.USER_ID)
- var templateParams = {
+ const templateParams = {
     to_name: 'xyz',
     from_name: 'abc',
     message_html: 'Please Find out the attached file'
   }
-emailjs.send('service_e1y1fun', 'template_cczqded', templateParams)
+emailjs.send('service_e1y1fun', 'template_cczqded', templateParams,)
 .then(function(response) {
   console.log('SUCCESS!', response.status, response.text);
 }, function(error) {
