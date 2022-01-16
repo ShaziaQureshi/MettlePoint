@@ -1,19 +1,19 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
 }
 
-.personalized--class{
+.personalized--class {
   width: 100%;
 
-  background-color: #116333 ;
+  background-color: #116333;
   color: white;
-  
-  font-family:'Times New Roman';
 
+  font-family: 'Times New Roman';
 }
 
-.Personalized--Form{
-  margin:3em;
+.Personalized--Form {
+  margin: 3em;
   margin-right: 7em;
   width: 20em;
   height: fit-content;
@@ -23,12 +23,12 @@ h1, p {
   word-spacing: 2px;
   box-shadow: 0 8px 6px -6px black;
 }
-.personalized--divi{
-  display:flex;
-  gap:20px;
+.personalized--divi {
+  display: flex;
+  gap: 20px;
 }
-.form-data{
-  margin-top: .6em;
+.form-data {
+  margin-top: 0.6em;
   padding: 8px;
   width: 18em;
   height: 2em;
@@ -36,26 +36,46 @@ h1, p {
   border-width: 1px;
   border-radius: 5px;
 }
-button{
+button {
   margin-top: 1em;
   background-color: #116333;
   width: 10em;
   align-items: center;
- border:none;
+  border: none;
   height: 2em;
   color: white;
   font-size: 1em;
   padding: 4px;
 }
-.lable{
+.lable {
   margin-top: 20px;
 }
 
-.form--lable{
+.form--lable {
   font-size: large;
 }
-.box1{
+.box1 {
   border: white;
-  padding:2em;
+  padding: 2em;
   margin: 2em;
+}
+nav {
+  background-color: rgb(226, 232, 238);
+  width: 100%;
+  margin: 0;
+  padding: 1em;
+  display: inline-flex;
+}
+ul {
+  margin: 0;
+  right: 0;
+  position: absolute;
+}
+li {
+  float: right;
+  right: 0;
+  position: relative;
+  display: inline-flex;
+  padding: 0.8em;
+  font-size: 1.2em;
 }
