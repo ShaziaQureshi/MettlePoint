@@ -4,6 +4,7 @@ import Navigation from "./Navigation"
 import MainPage from "./MainPage"
 import Personalized from "./Personalized"
 import Content from "./Content"
+import Footer from "./Footer"
 export default function App() {
   return (
     <div>
@@ -11,6 +12,7 @@ export default function App() {
       <MainPage />
       <Content />
       <Personalized />
+      <Footer/>
     </div>
   );
 }
