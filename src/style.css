@@ -63,7 +63,7 @@ nav {
   background-color: rgb(226, 232, 238);
   width: 100%;
   margin: 0;
-  padding: 1em;
+  padding: 2em;
   display: inline-flex;
 }
 ul {
@@ -72,8 +72,7 @@ ul {
   position: absolute;
 }
 li {
-  float: right;
-  right: 0;
+  right: 1.2em;
   position: relative;
   display: inline-flex;
   padding: 0.8em;
