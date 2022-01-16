@@ -7,10 +7,10 @@ import Content from "./Content"
 export default function App() {
   return (
     <div>
-      {/* <Navigation/>
+      <Navigation/>
       <MainPage />
-      <Personalized /> */}
       <Content />
+      <Personalized />
     </div>
   );
 }

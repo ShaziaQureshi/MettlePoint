@@ -5,7 +5,7 @@ import ContentData from "./ContentData"
 function Content()
 {
   return(
-    <section>
+    <section className="content--class">
       {Data.map(item=>{
         return(
         <ContentData 
