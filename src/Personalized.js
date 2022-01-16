@@ -2,7 +2,7 @@ import React,{Component} from "react"
 import ReactDOM from "react-dom"
 import {init} from '@emailjs/browser'
 import emailjs from 'emailjs-com';
-emailjs.init("user_SG2lXtweFNiLdVeQjzP5V");
+emailjs.init('user_SG2lXtweFNiLdVeQjzP5V');
 import emailkey from "./emailkey"
 const persoData="We all are different in our own ways and so is our healing journey. That is the reason we are also offereing personalized Help for every indivaual. If the above content intrigued you and you are at this page, make sure to provide your details below so we can reach out for you."
 
@@ -41,7 +41,7 @@ console.log(emailkey.USER_ID)
     from_name: 'abc',
     message_html: 'Please Find out the attached file'
   }
-emailjs.send('service_e1y1fun', 'template_cczqded', templateParams,)
+emailjs.send('service_ghvm92m', 'template_cczqded', templateParams,)
 .then(function(response) {
   console.log('SUCCESS!', response.status, response.text);
 }, function(error) {
@@ -55,6 +55,13 @@ emailjs.send('service_e1y1fun', 'template_cczqded', templateParams,)
   render(){
     return (
       <section className="personalized--class">
+        <head>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_SG2lXtweFNiLdVeQjzP5V")})();
+</script>
+          </head>
           <div className="personalized--divi">
             <div className="box1">
                 <span style={{fontSize:"6em"}}>Need Personalized Inputs?</span>
